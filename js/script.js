@@ -43,7 +43,7 @@ function init_fullpage() {
         autoScrolling: false,
         fitToSection: false,
 		animateAnchor: true,
-		anchors: ['home', 'about', 'services', 'portfolio', 'contact', 'footer', 'slide-app', 'slide-web'],
+		anchors: ['home', 'about', 'services', 'publications', 'portfolio', 'contact', 'footer', 'slide-app', 'slide-web'],
 		menu: '#myMenu',
 		css3: true,
 		controlArrows: false,
@@ -80,11 +80,11 @@ function init_map() {
 	L.mapbox.accessToken = 'pk.eyJ1IjoiZmludGFzeXMiLCJhIjoiY2ltcWN5ZG5qMDAyNndlbTJpYjVqdzBmNCJ9.KFxdi6cDZzQNewCQQGJgmA';
 	// Create a map in the div #map
 	var map = L.mapbox.map('map', 'mapbox.streets', {
-		center: [35.704505, 139.619882],
+		center: [35.681236, 139.7671248],
 		zoom: 13,
 		scrollWheelZoom: false
 	});
-	L.marker([35.704505, 139.619882]).addTo(map);
+	L.marker([35.68123, 139.7671248]).addTo(map);
 	L.mapbox.styleLayer("mapbox://styles/fintasys/cj02ibcnr00162smjkp9yk7yw").addTo(map);
 }
 

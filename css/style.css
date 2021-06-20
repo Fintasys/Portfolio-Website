@@ -361,6 +361,13 @@ blockquote p {
 }
 
 /*
+	Publications
+*/
+.publications-content .secondary-text {
+	color: #999;
+}
+
+/*
 	Portfolio 
 */
 .portfolio-wrapper {
@@ -375,7 +382,7 @@ blockquote p {
 	height: 100%;
 }
 
-.portfolio-image  img {
+.portfolio-image img {
 	width: 100%;
 	max-width: 300px;
 }
@@ -431,6 +438,7 @@ blockquote p {
 */
 .btn-primary {
 	background: #6da7c6;
+	border-color: transparent !important;
 }
 
 .contact {
